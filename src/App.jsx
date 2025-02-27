@@ -1,10 +1,12 @@
-
+import { Posts } from "./components/Posts";
+import "./App.css";
 
 export const App = () => {
-
   return (
     <>
-      <h1>helooo</h1>
+      <section className="main-component">
+        <Posts />
+      </section>
     </>
-  )
+  );
 };
